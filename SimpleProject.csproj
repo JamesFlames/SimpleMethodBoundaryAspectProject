@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RuntimeFrameworkVersion>2.1.0</RuntimeFrameworkVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Fody" Version="3.3.0" />
+    <PackageReference Include="MethodBoundaryAspect.Fody" Version="1.0.66" />
+  </ItemGroup>
+</Project>
